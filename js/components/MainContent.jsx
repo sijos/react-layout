@@ -1,4 +1,5 @@
 import React from 'react';
+import DeliveryPickup from './DeliveryPickup';
 
 class MainContent extends React.Component {
 
@@ -7,7 +8,7 @@ class MainContent extends React.Component {
       <div className="delivery-options-page">
         <div className="site-container">
           <div className="delivery-options-box">
-            test
+            <DeliveryPickup />
           </div>
         </div>
       </div>
