@@ -7,7 +7,7 @@ class Header extends React.Component {
         <div className="header">
             <div className="header-container">
               <div className="header-resp-back">
-                  <a href="#"><img src="images/chevron-left.png" border="0" /></a>
+                  <a href="#"><img src="images/chevron-left.png" /></a>
               </div>
               <div className="logo"><img src="images/logo.png" /></div>
               <div className="main-navigation">
