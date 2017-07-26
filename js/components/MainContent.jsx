@@ -1,6 +1,7 @@
 import React from 'react';
 import DeliveryPickup from './DeliveryPickup';
 import ContinueButton from './ContinueButton';
+import ShippingAddress from './ShippingAddress';
 
 class MainContent extends React.Component {
 
@@ -11,6 +12,7 @@ class MainContent extends React.Component {
           <div className="delivery-options-box">
             <DeliveryPickup />
             <ContinueButton btnId={"1"}/>
+            <ShippingAddress />
           </div>
         </div>
       </div>
