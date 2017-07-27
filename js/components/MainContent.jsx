@@ -2,6 +2,7 @@ import React from 'react';
 import DeliveryPickup from './DeliveryPickup';
 import ContinueButton from './ContinueButton';
 import ShippingAddress from './ShippingAddress';
+import PaymentInfo from './PaymentInfo';
 
 class MainContent extends React.Component {
 
@@ -14,6 +15,7 @@ class MainContent extends React.Component {
             <ContinueButton btnId={"1"} hidden={false} />
             <ShippingAddress />
             <ContinueButton btnId={"2"} hidden={true} />
+            <PaymentInfo />
           </div>
         </div>
       </div>
