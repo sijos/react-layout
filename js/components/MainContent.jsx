@@ -19,6 +19,7 @@ class MainContent extends React.Component {
             <PaymentInfo />
             <ContinueButton btnId={"3"} hidden={true} />
             <CreateAccount />
+            <ContinueButton btnId={"4"} hidden={true} />
           </div>
         </div>
       </div>
