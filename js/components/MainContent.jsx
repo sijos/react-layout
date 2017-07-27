@@ -11,8 +11,9 @@ class MainContent extends React.Component {
         <div className="site-container">
           <div className="delivery-options-box">
             <DeliveryPickup />
-            <ContinueButton btnId={"1"}/>
+            <ContinueButton btnId={"1"} hidden={false} />
             <ShippingAddress />
+            <ContinueButton btnId={"2"} hidden={true} />
           </div>
         </div>
       </div>
