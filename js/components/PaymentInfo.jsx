@@ -1,4 +1,5 @@
 import React from 'react';
+import PaymentFilled from './PaymentFilled';
 
 class PaymentInfo extends React.Component {
 
@@ -6,6 +7,7 @@ class PaymentInfo extends React.Component {
     return (
       <div>
         <h2 className="subheading" id="paymentInfoHeading"><span className="iconnic">3</span> Payment <a className="btn btn-secondary edit-button pull-right" id="paymentInfoEditButton" href="#" role="button">Edit</a></h2>
+        <PaymentFilled />
         <div id="paymentInfoSection" style={{display:"none"}}>
           <div className="shipping-contact-form">
             <div className="row">
