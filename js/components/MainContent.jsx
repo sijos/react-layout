@@ -4,6 +4,7 @@ import ContinueButton from './ContinueButton';
 import ShippingAddress from './ShippingAddress';
 import PaymentInfo from './PaymentInfo';
 import CreateAccount from './CreateAccount';
+import Subtotal from './Subtotal';
 
 class MainContent extends React.Component {
 
@@ -20,6 +21,7 @@ class MainContent extends React.Component {
             <ContinueButton btnId={"3"} hidden={true} />
             <CreateAccount />
             <ContinueButton btnId={"4"} hidden={true} />
+            <Subtotal />
           </div>
         </div>
       </div>
