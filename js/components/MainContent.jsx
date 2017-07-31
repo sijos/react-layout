@@ -22,6 +22,11 @@ class MainContent extends React.Component {
             <CreateAccount />
             <ContinueButton btnId={"4"} hidden={true} />
             <Subtotal />
+            <div className="bottom-box-text">
+              <p>By clicking Place Order Now, you accept and agree to all terms of Apple's Sales and RefundsSales and Refunds Policy. A receipt will be provided to you electronically that contains these terms and an itemized list of your purchase including
+                taxes and shipping charges, if any.
+              </p>
+            </div>
           </div>
         </div>
       </div>
