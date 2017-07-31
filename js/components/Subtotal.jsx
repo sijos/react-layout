@@ -46,7 +46,7 @@ class Subtotal extends React.Component {
       <div className="row">
         <div className="col-sm-12">
           <div className="enter-promocode">
-            <div className="enter-promo-field-div" id="promoFieldDiv" style="display:none;">
+            <div className="enter-promo-field-div" id="promoFieldDiv" style={{display: "none"}}>
                 <div className="form-fields">
                   <div className="row">
                     <div className="col-sm-3">
