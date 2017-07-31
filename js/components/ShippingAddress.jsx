@@ -1,4 +1,5 @@
 import React from 'React';
+import ShippingFilled from './ShippingFilled';
 
 class ShippingAddress extends React.Component {
 
@@ -6,6 +7,7 @@ class ShippingAddress extends React.Component {
     return(
       <div>
         <h2 className="subheading" id="shippingAddressHeading"><span className="iconnic">2</span> Shipping Address <a className="btn btn-secondary edit-button pull-right" id="shippingAddressEditButton" href="#" role="button">Edit</a></h2>
+        <ShippingFilled />
         <div id="shippingAddressSection" style={{display:"none"}}>
           <div className="shipping-contact-form">
             <div className="row">
